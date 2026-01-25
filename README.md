@@ -69,7 +69,7 @@ where `α > 0` is the shape parameter and `β > 0` is the rate parameter.
 ## Usage
 
 ```javascript
-import mode from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-invgamma-mode@esm/index.mjs';
+import mode from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-invgamma-mode@v0.3.0-esm/index.mjs';
 ```
 
 #### mode( alpha, beta )
@@ -146,7 +146,7 @@ v = mode( 1.0, -1.0 );
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@esm/index.mjs';
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import mode from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-invgamma-mode@esm/index.mjs';
+import mode from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-invgamma-mode@v0.3.0-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
