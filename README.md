@@ -69,7 +69,7 @@ where `α > 0` is the shape parameter and `β > 0` is the rate parameter.
 ## Usage
 
 ```javascript
-import mode from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-invgamma-mode@deno/mod.js';
+import mode from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-invgamma-mode@v0.3.1-deno/mod.js';
 ```
 
 #### mode( alpha, beta )
@@ -141,7 +141,7 @@ v = mode( 1.0, -1.0 );
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@deno/mod.js';
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import mode from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-invgamma-mode@deno/mod.js';
+import mode from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-invgamma-mode@v0.3.1-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
